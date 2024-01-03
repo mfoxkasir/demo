@@ -1,0 +1,28 @@
+﻿<Window x:Class="ceftest2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ceftest2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*" />
+			<RowDefinition Height="*" />
+			<RowDefinition Height="*" />
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+
+		<Button Grid.Row="0" x:Name="rickrolls" Content="Rick Rolls" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="5" Click="Button_Click" Tag="https://youtu.be/dQw4w9WgXcQ" />
+		<Button Grid.Row="1" x:Name="thamarai" Content="Leo" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="5" Click="Button_Click" Tag="https://www.youtube.com/watch?v=Fh4hh9ljQ90"/>
+		<Button Grid.Row="2" x:Name="varmanJoy" Content="Mansalayoo" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="5" Click="Button_Click" Tag="https://www.youtube.com/watch?v=gtuDWTNSTbk" />
+
+		<Grid Grid.Column="1" Grid.RowSpan="3" x:Name="DemoGrid">
+			
+		</Grid>
+	</Grid>
+</Window>
